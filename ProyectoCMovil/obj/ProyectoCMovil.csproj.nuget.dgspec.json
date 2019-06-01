@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joeda\\source\\repos\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joeda\\source\\repos\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joeda\\source\\repos\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil.csproj",
+        "projectName": "ProyectoCMovil",
+        "projectPath": "C:\\Users\\joeda\\source\\repos\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil.csproj",
+        "packagesPath": "C:\\Users\\joeda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joeda\\source\\repos\\ProyectoCMovil\\ProyectoCMovil\\ProyectoCMovil\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "CocosSharp": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "NETStandard.Library.NETFramework": {
+              "target": "Package",
+              "version": "[2.0.0-preview2-25405-01, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.GooglePlayServices.Maps": {
+              "target": "Package",
+              "version": "[71.1600.0-preview6, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

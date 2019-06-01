@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.ProyectoCMovil" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+	<application android:allowBackup="true" android:icon="@mipmap/iconapp" android:label=" " android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+		<uses-permission android:name="ProyectoCMovil.ProyectoCMovil.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+		<uses-features android:glEsVersion="0x00020000" android:required="true" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/GoogleKey" />
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+		<activity android:name="com.companyname.ProyectoCMovil.Map"></activity>
+		<activity android:name="com.companyname.ProyectoCMovil.Maps2"></activity>
+		<activity android:name="com.companyname.ProyectoCMovil.GameActivity"></activity>
+		<activity android:name="com.companyname.ProyectoCMovil.startActivity"></activity>
+	</application>
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@android:color/background_light">
+    <TextView
+        android:text="¡Bienvenido a WinApp!   ¿Tienes una cuenta?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:id="@+id/CreateAccount"
+        android:textColor="#368DEB"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="0.0dp" />
+
+    <Button
+        android:text="Ingresa"
+        android:id="@+id/btnSignIn"
+        android:background="@drawable/buttonsigninstyle"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="O crea tu cuenta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/txtOr"
+        android:textColor="#368DEB"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:text="Registrate"
+        android:id="@+id/btnSignUp"
+        android:background="@drawable/buttonsignupstyle"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="15"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/progressBar1"
+            android:background="@drawable/progressbarstyle"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
